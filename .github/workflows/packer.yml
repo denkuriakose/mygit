@@ -11,8 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     name: Ocean Packer
     env:
-      aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-      aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      aws-access-key-id: AKIA6L5PPUMFDXJUOMX5
+      aws-secret-access-key: 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
       aws-region: ap-south-1  
     steps:
       - name: Checkout
